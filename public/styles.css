@@ -1,0 +1,48 @@
+/* ------------------------------- */
+/* FONTS */
+/* ------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+/* -------------------------------- */
+/* GLOBAL VARIABLES */
+/* -------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+/* -------------------------------- */
+/* NAVBAR */
+/* -------------------------------- */
+
+.navbar{
+    background-color: blue;
+    display:flex;
+    padding-left: 400px;
+}
+.nvidia-nav-logo{
+    height:50px;
+    width: 55px;
+}
+.nav-box, .navlinks{
+    background-color: red;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li, .navlinks-list li{
+    display: inline;
+    padding:1rem;
+}
+.navlinks{
+    background-color: green;
+    margin-left: 20rem;
+    width: 400px;
+}
