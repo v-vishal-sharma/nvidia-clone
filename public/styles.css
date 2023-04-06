@@ -17,12 +17,9 @@ ul{
     list-style: none;
 }
 
-/* -------------------------------- */
 /* NAVBAR */
-/* -------------------------------- */
 
 .navbar{
-    background-color: blue;
     display:flex;
     padding-left: 400px;
 }
@@ -31,18 +28,29 @@ ul{
     width: 55px;
 }
 .nav-box, .navlinks{
-    background-color: red;
     width: 400px;
     display:flex;
     justify-content: center;
     align-items: center;
 }
-.nav-list li, .navlinks-list li{
+.nav-list li{
     display: inline;
     padding:1rem;
 }
 .navlinks{
-    background-color: green;
     margin-left: 20rem;
     width: 400px;
+}
+.navlinks-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* CAROUSEL */
+.carousel-container{
+    height: 80vh;
+    width: 100%;
+    background: black;
 }
