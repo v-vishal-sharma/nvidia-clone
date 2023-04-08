@@ -1,12 +1,12 @@
 import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 
 function Icons() {
     return (
         <>
-            <SearchIcon fontSize="large"/>
-            <AccountCircleIcon fontSize="large"/>
+            <SearchIcon />
+            <AccountCircleOutlinedIcon />
         </>
     )
 }

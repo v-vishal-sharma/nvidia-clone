@@ -21,11 +21,13 @@ ul{
 
 .navbar{
     display:flex;
-    padding-left: 400px;
+    padding-left: 380px;
+    font-size: 14px;
 }
 .nvidia-nav-logo{
-    height:50px;
-    width: 55px;
+    height:38px;
+    width: 110px;
+    margin-right: 20px;
 }
 .nav-box, .navlinks{
     width: 400px;
@@ -55,6 +57,7 @@ ul{
     background: black;
     display: flex;
     overflow-x:scroll;
+    overflow-y: hidden;
     color:white;
 }
 /* hiding scrollbars */
