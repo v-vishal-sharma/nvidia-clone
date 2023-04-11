@@ -2,18 +2,18 @@
 // CAROUSEL //
 //======================================//
 let carouselIndex = 1;
-showcarousel(slideIndex);
+showcarousel(carouselIndex);
 
 // dot controls
 function currentSlide(n) {
-  showcarousel(slideIndex = n);
-  console.log("clicked");
+  showcarousel(carouselIndex = n);
+  console.log(n);
 }
 
 function showcarousel(n) {
   let i;
   let carousel = document.getElementsByClassName("carousel");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsByClassName("progression-line");
   if (n > carousel.length) {carouselIndex = 1}
   if (n < 1) {carouselIndex = carousel.length}
   for (i = 0; i < carousel.length; i++) {

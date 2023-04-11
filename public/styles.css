@@ -131,7 +131,7 @@ ul{
     background: #6666;
     margin: 10px 0;
 }
-div.active{
+.active{
     background: green;
 }
 .carousel-navigation-1-heading{
