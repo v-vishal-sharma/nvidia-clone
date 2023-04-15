@@ -56,9 +56,11 @@ ul{
 /* CAROUSEL */
 /* -------------------------------- */
 .carousel-container{
-    height: 70vh;
+    height: 68vh;
     width: 100%;
     /* display: flex;*/
+    background-color: black;
+    color: white;
 
     max-width: 100vw;
     outline: 2px solid black;
@@ -76,12 +78,22 @@ ul{
     height:100%;
     width:100%;
 }
-.carousel-1-text{
+.carousel-1-text, .carousel-left-text{
     width: 30vw;
     position: relative;
     left: 60rem;
     top: 10rem;
     outline: 2px solid blue;
+    text-align: left;
+}
+.carousel-left-text{
+    left: 20.2rem;
+}
+.carousel-center-text{
+    text-align: center;
+    width: 60vw;
+    padding-top: 8rem;
+    margin:auto;
 }
 .carousel-upper-heading{
     font-size: 25px;
@@ -115,6 +127,7 @@ ul{
 .dot{
     width: 500px;
     margin: auto;
+    cursor:pointer;
 }
 .progression-line{
     width: 100%;
@@ -125,11 +138,11 @@ ul{
 .active{
     background: green;
 }
-.carousel-navigation-1-heading{
+.carousel-navigation-heading{
     font-size: 12px;
     margin-bottom: 10px;
 }
-.carousel-navigation-1-subtext{
+.carousel-navigation-subtext{
     font-size: 16px;
 }
 /* fade animation */
@@ -142,3 +155,26 @@ ul{
     to {opacity: 1}
 }
 /* fade animation */
+
+/* -------------------------------- */
+/* OVERFLOW SLIDESHOW*/
+/* -------------------------------- */
+.overflow-container{
+    overflow-x:scroll;
+}
+.overflow-container-heading{
+    display:inline-block;
+}
+.overflow-container-heading{
+    font-size: 30px;
+}
+.overflow-button{
+    margin-top: 30px;
+    padding:11px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0;
+    border-style: none;
+    background-color: #76B900;
+    color:white;
+}

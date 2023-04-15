@@ -12,6 +12,9 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4ec34eabaa.js" crossorigin="anonymous"></script>
     
     <title>NVidia</title>
   </head>
@@ -42,13 +45,13 @@
         <h1 class="carousel-main-heading">Don't Miss This Defining Moment in AI</h1>
         <p class="carousel-subtext">
           Watch NVIDIA CEO Jensen Huang share the latest breakthroughs in generative AI, cloud services, industrial digitalization, and more.</p>
-        <button class="carousel-1-button">Watch Now</button>
+        <button class="carousel-button">Watch Now</button>
       </div>
     </div>
       <!-- carousel-1 -->
       <!-- carousel-2 -->
       <div class="carousel-2 carousel">
-        <div class="carousel-1-text">
+        <div class="carousel-2-text carousel-left-text">
           <h3 class="carousel-upper-heading">Data Center</h3>
           <h1 class="carousel-main-heading">Introducing NVIDIA DGX Cloud—An AI Factory in the Cloud</h1>
           <p class="carousel-subtext">
@@ -59,7 +62,7 @@
       <!-- carousel-2 -->
       <!-- carousel-3 -->
       <div class="carousel-2 carousel">
-        <div class="carousel-1-text">
+        <div class="carousel-3-text carousel-left-text">
           <h3 class="carousel-upper-heading">AI</h3>
           <h1 class="carousel-main-heading">Bringing Generative AI to the World's Enterprises</h1>
           <p class="carousel-subtext">NVIDIA AI Foundations—new cloud services for language, biology, and visual media—give businesses the power to build, refine, and operate custom generative AI and large language models.</p>
@@ -69,17 +72,92 @@
       <!-- carousel-3 -->
       <!-- carousel-4 -->
       <div class="carousel-2 carousel">
-        <div class="carousel-1-text">
+        <div class="carousel-4-text carousel-center-text">
           <h3 class="carousel-upper-heading">Data Center</h3>
-          <h1 class="carousel-main-heading">Bringing Generative AI to the World's Enterprises</h1>
-          <p class="carousel-subtext">NVIDIA AI Foundations—new cloud services for language, biology, and visual media—give businesses the power to build, refine, and operate custom generative AI and large language models.</p>
+          <h1 class="carousel-main-heading">Announcing Inference Platforms for Diverse Generative AI Workloads</h1>
+          <p class="carousel-subtext">Four new inference platforms optimized for rapidly emerging generative AI applications, like AI video, image generation, large language model deployment, and recommender inference.</p>
           <button class="carousel-button">Learn More</button>
         </div>
       </div>
       <!-- carousel-4 -->
-
+      <!-- carousel-5 -->
+      <div class="carousel-2 carousel">
+        <div class="carousel-5-text carousel-left-text">
+          <h3 class="carousel-upper-heading">HPC</h3>
+          <h1 class="carousel-main-heading">NVIDIA Brings Accelerated Computing to Computational Lithography</h1>
+          <p class="carousel-subtext">TSMC, ASML, and Synopsys Embrace NVIDIA cuLitho to Accelerate Semiconductor Manufacturers' Time to Market.</p>
+          <button class="carousel-button">Learn More</button>
+        </div>
+      </div>
+      <!-- carousel-5 -->
+      <!-- carousel-6 -->
+      <div class="carousel-2 carousel">
+        <div class="carousel-6-text carousel-left-text">
+          <h3 class="carousel-upper-heading">Gaming Hardware</h3>
+          <h1 class="carousel-main-heading">Introducing the NVIDIA GeForce RTX 4070</h1>
+          <p class="carousel-subtext">Beyond Fast</p>
+          <button class="carousel-button">Learn More</button>
+        </div>
+      </div>
+      <!-- carousel-6 -->
     </div>
     <!-- Caraousel End -->
+    <!-- Carousel Dots -->
+    <div class="carousel-navigation-dots">
+      <!-- dot-1 -->
+      <div class="dot" onclick= currentSlide(1)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">GTC Keynote</p>
+        <p class="carousel-navigation-subtext">Don't Miss This Defining Moment in AI.</p>
+      </div>
+      <!-- dot-1 -->
+      <!-- dot-2 -->
+      <div class="dot" onclick= currentSlide(2)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">Data Center</p>
+        <p class="carousel-navigation-subtext">Introducing NVIDIA DGX Cloud—An AI Factory in...</p>
+      </div>
+      <!-- dot-2 -->
+      <!-- dot-3 -->
+      <div class="dot" onclick= currentSlide(3)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">AI</p>
+        <p class="carousel-navigation-subtext">Bringing Generative AI to the World's Enterprises. </p>
+      </div>
+      <!-- dot-3 -->
+      <!-- dot-4 -->
+      <div class="dot" onclick= currentSlide(4)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">Data Center</p>
+        <p class="carousel-navigation-subtext">Announcing Inference Platforms for Diverse...</p>
+      </div>
+      <!-- dot-4 -->
+      <!-- dot-5 -->
+      <div class="dot" onclick= currentSlide(5)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">HPC</p>
+        <p class="carousel-navigation-subtext">NVIDIA Brings Accelerated Computing...</p>
+      </div>
+      <!-- dot-5 -->
+      <!-- dot-6 -->
+      <div class="dot" onclick= currentSlide(6)>
+        <div class="progression-line"></div>
+        <p class="carousel-navigation-heading">Gaming Hardware</p>
+        <p class="carousel-navigation-subtext">Introducing the NVIDIA GeForce RTX 4070.</p>
+      </div>
+      <!-- dot-6 -->
+    </div>
+    <!-- Carousel Dots -->
+
+    <!-- Overflow slideshow -->
+    <section class="overflow-container">
+      <h1 class="overflow-container-heading">Design and Simulation</h1>
+      <button class="left-button overflow-button"><i class="fa-sharp fa-light fa-chevron-left"></i></button>
+      <button class="right-button overflow-button"><i class="fa-sharp fa-light fa-chevron-right"></i></button>
+    </section>
+    <!-- Overflow slideshow -->
+
+
 
     <!-- JavaScript -->
     <script src="../src/index.js"></script>
