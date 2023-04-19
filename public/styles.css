@@ -161,6 +161,12 @@ ul{
 /* -------------------------------- */
 .overflow-container{
     overflow-x:scroll;
+    width: 66vw;
+    margin: auto;
+}
+.overflow-container-header{
+    display:flex;
+    justify-content: space-between;
 }
 .overflow-container-heading{
     display:inline-block;
@@ -169,11 +175,8 @@ ul{
     font-size: 30px;
 }
 .overflow-button{
-    margin-top: 30px;
-    padding:11px 16px;
-    font-size: 18px;
-    font-weight: bold;
     border-radius: 0;
+    font-size: 30px;
     border-style: none;
     background-color: #76B900;
     color:white;
